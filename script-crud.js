@@ -96,7 +96,7 @@ adicionarTarefaBt.addEventListener('click', () => {
 })
 
 formAdicionarTarefa.addEventListener('submit', (evento) => {
-    evento.preventDefault();
+    evento.preventDefault(); // para não atualizar a página
     const tarefa = {
         descricao: textarea.value
     }
